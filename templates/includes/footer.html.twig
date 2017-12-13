@@ -1,0 +1,10 @@
+{% if page.footer %}
+  {% set container = theme.settings.fluid_container ? 'container-fluid' : 'container' %}
+  {% block footer %}
+    <footer class="footer {{ container }} navbar-inverse text-white" role="contentinfo">
+      <div class="container">
+        {{ page.footer }}
+      </div>
+    </footer>
+  {% endblock %}
+{% endif %}

@@ -1,0 +1,51 @@
+body.navbar-is-fixed-top {
+    margin-top: 50px;
+}
+
+.page-header {
+    margin-top: 20px;
+}
+
+.background-green {
+    background-color: #39dbac;
+}
+
+.background-blue {
+    background: #0d8fdb;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.no_margin {
+    margin: 0 !important;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.border-left {
+    border-left: 1px solid #222;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.button-fixed-bottom-bloc {
+    min-height: 230px;
+    position: relative;
+}
+
+.button-fixed-bottom-bloc .homeblock {
+    position: absolute;
+    bottom: 0;
+}
+
+footer a,
+footer a:hover,
+footer a:focus {
+    color: #fff;
+}

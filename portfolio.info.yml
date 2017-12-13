@@ -1,0 +1,16 @@
+name: portfolio
+type: theme
+description: 'A custom D8 theme for portfolio'
+core: 8.x
+base theme: bootstrap
+package: custom theme
+regions:
+  header: Header
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  content: Content
+  sidebar_first: 'Sidebar first'
+  home_block_bar: 'Block bar home'
+  footer: Footer
+libraries:
+  - portfolio/global-styling

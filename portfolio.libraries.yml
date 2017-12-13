@@ -1,0 +1,16 @@
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/main.css: {}
+
+curriculum-vitae:
+  version: 1.x
+  css:
+    theme:
+      css/curriculum-vitae.css: {}
+  js:
+    js/libraries/Chart.min.js: {}
+    js/curriculum-vitae.js: {}
+  dependencies:
+    - core/jquery

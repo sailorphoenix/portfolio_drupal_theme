@@ -1,0 +1,31 @@
+schemas:
+  bootstrap: 8000
+  portfolio: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://drupal-8-3-5.dd:8083/themes/contrib/bootstrap/favicon.ico'
+  use_default: 1
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: 1
+  node_user_picture: false
+logo:
+  path: ''
+  url: ''
+  use_default: 0
+navbar_inverse: 1
+navbar_position: fixed-top
+region_wells:
+  header: ''
+  navigation: ''
+  navigation_collapsible: ''
+  content: ''
+  sidebar_first: ''
+  home_block_bar: ''
+  footer: ''
+fluid_container: 1
+table_responsive: '-1'
+cdn_provider_import_data: ''
+table: ''

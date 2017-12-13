@@ -1,0 +1,11 @@
+#page-column-onethird-twothird .background-green,
+#page-column-onethird-twothird .background-blue {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.canvas-medium {
+    width: 50%;
+    height: auto;
+}

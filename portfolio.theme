@@ -1,0 +1,34 @@
+<?php
+
+/**
+  * @file
+  * File theme for AHER Theme.
+  *
+  */
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function portfolio_theme_suggestions_page_alter(array &$suggestions, array $variables) {
+
+  if ($node = \Drupal::routeMatch()->getParameter('node')) {
+    $content_type = $node->bundle();
+    $suggestions[] = 'page__'.$content_type;
+  }
+}
+
+/**
+ * Implements THEME_preprocess_HOOK().
+ */
+function portfolio_preprocess_page(&$variables) {
+  $page_type = ((isset($variables['node'])) ? $variables['node']->getType() : '');
+
+  switch ($page_type) {
+    case 'curriculum_vitae':
+      $variables['#attached']['library'][] = 'portfolio/curriculum-vitae';
+      break;
+
+    default:
+      break;
+  }
+}
